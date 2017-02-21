@@ -1,0 +1,138 @@
+ @import url('eric-meyer-reset.css');
+ body {
+     padding: 75px 0 0 0;
+     margin: 0;
+     background: #2f2840 url('images/bg_body.gif') 50% 0 repeat;
+     text-align: center;
+     color: #45494d;
+     font: 20px normal Helvetica, Arial, sans-serif;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: #3e59b2;
+ }
+ 
+ nav {
+     padding: 25px 0 60px 0;
+     font-size: 24px;
+ }
+ 
+ ul {
+     list-style: none;
+ }
+ 
+ nav ul li {
+     display: inline;
+     padding: 0 40px;
+ }
+ 
+ nav a {
+     color: #cacaca;
+ }
+ 
+ main {
+     background: white;
+     padding: 100px 0 0 0;
+ }
+ 
+ .col {
+     width: 1000px;
+     margin: 0 auto;
+ }
+ 
+ article {
+     padding: 0 110px 100px 110px;
+ }
+ 
+ h2 {
+     font-size: 36px;
+     padding: 0 0 40px 0;
+     font-weight: 600;
+ }
+ 
+ h2:before,
+ h2:after {
+     content: '\2022';
+     padding: 0 20px;
+     font-size: 24px;
+ }
+ 
+ h3 {
+     color: #3e59b2;
+     font-weight: 600;
+     font-size: 24px;
+     padding: 0 0 40px 0;
+ }
+ 
+ footer {
+     background: #e7e7e7;
+     padding: 75px 0;
+     color: #b2b2b2;
+ }
+ 
+ footer p {
+     padding: 0 0 40px 0;
+ }
+ 
+ footer li {
+     display: inline-block;
+     padding: 0 60px;
+ }
+ 
+ footer li a {
+     width: 46px;
+     height: 46px;
+     display: block;
+     background: transparent url('images/icons_social-media.png') 0 0 no-repeat;
+     overflow: hidden;
+     text-indent: -8685px;
+ }
+ 
+ footer li a.facebook {
+     background-position: 0 -46px;
+ }
+ 
+ footer li a.email {
+     background-position: 0 -92px;
+ }
+ 
+ footer li a.instagram {
+     background-position: 0 -138px;
+ }
+ 
+ #projects article {
+     padding: 0 0 50px 0;
+ }
+ 
+ #projects img {
+     display: block;
+     width: 100%;
+ }
+ 
+ #projects figure {
+     padding: 0 30px 20px 30px;
+     margin: 0;
+ }
+ 
+ #projects article+article {
+     padding-top: 60px;
+ }
+ 
+ #projects article p {
+     padding: 0 110px;
+ }
+ 
+ #team li {
+     display: inline-block;
+     padding: 0 30px;
+     font-size: 24px;
+ }
+ 
+ #team article {
+     padding: 0 0 200px 0;
+ }
+ 
+ #team p {
+     padding: 0 110px 100px 110px;
+ }
